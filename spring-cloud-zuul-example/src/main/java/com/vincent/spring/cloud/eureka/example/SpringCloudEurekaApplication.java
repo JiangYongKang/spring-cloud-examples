@@ -3,6 +3,7 @@ package com.vincent.spring.cloud.eureka.example;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 /**
  * author: vincent
@@ -10,6 +11,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * comment:
  */
 
+@EnableZuulProxy
 @EnableEurekaServer
 @SpringBootApplication
 public class SpringCloudEurekaApplication {
