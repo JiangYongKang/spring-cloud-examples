@@ -9,6 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -32,6 +36,7 @@
         <module>spring-cloud-zuul-example</module>
         <module>spring-cloud-service-one-example</module>
         <module>spring-cloud-service-two-example</module>
+        <module>spring-cloud-eureka-example</module>
     </modules>
 
     <build>
@@ -39,6 +44,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.5.16.RELEASE</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
