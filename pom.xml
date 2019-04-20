@@ -37,6 +37,7 @@
         <module>spring-cloud-service-one-example</module>
         <module>spring-cloud-service-two-example</module>
         <module>spring-cloud-eureka-example</module>
+        <module>spring-cloud-common-example</module>
     </modules>
 
     <build>
