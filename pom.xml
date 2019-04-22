@@ -34,8 +34,8 @@
 
     <modules>
         <module>spring-cloud-zuul-example</module>
-        <module>spring-cloud-service-one-example</module>
-        <module>spring-cloud-service-two-example</module>
+        <module>spring-cloud-order-example</module>
+        <module>spring-cloud-inventory-example</module>
         <module>spring-cloud-eureka-example</module>
         <module>spring-cloud-common-example</module>
     </modules>
